@@ -3,5 +3,5 @@ import fetchingData from "./fetch";
 
 cron.schedule("*/1 * * * *", () => {
   console.log("Starting job")
-  fetchingData();
+  console.log("data: ",fetchingData());
 });
